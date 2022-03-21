@@ -1,0 +1,35 @@
+{
+    "name": "web503",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./src/app.js --exec babel-node -e js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tuanndph16237/WEb503.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tuanndph16237/WEb503/issues"
+    },
+    "homepage": "https://github.com/tuanndph16237/WEb503#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "express": "^4.17.3",
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express-jwt": "^6.1.1",
+        "firebase": "^9.6.9",
+        "firebase-admin": "^10.0.2",
+        "mongoose": "^6.2.5",
+        "slugify": "^1.6.5"
+    }
+}
